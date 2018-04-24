@@ -1,0 +1,66 @@
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--dapulse: #ff8100;
+	--mainBlue: #5DC3DB;
+	--bodyBackColor: #E9F2F9;
+	
+	--shadow: 0px 0px 70px 3px rgba(222,222,222,1);
+	--shadow2: 0px 0px 3px 0px rgba(222,222,222,1);
+}
+
+html, body {
+	background-color: var(--white);
+	
+	text-align: center;
+}
+
+
+
+
+/* BODY CONTAINERS */
+.uniContainer {
+	display: grid;
+	grid-template-columns: 30% 1fr;
+	
+	position: absolute;
+	top: 20%;
+	bottom: 20%;
+	min-width: 100%;
+	
+	left: 0px;
+		
+	box-shadow: var(--shadow);	
+	box-sizing: border-box;
+}
+
+
+.container1 {
+	background-color: var(--mainBlue);
+	
+	height: 100%;
+}
+
+.container2 {
+	background-color: var(--bodyBackColor);
+	
+	height: 100%;
+}
+
+
+/* POSTS */
+.post {
+	width: 65%;
+	height: 150px;
+	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	box-shadow: var(--shadow2);
+	border-radius: 5px;
+	
+	margin-left: 100px;
+	
+	
+	background-color: var(--white);
+}
